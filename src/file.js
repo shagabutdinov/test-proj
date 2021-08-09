@@ -14,4 +14,12 @@ function otherFunc(a) {
   return 1000;
 }
 
-module.exports = { someFunc, otherFunc };
+function newOtherFunc(a) {
+  if (a === 10) {
+    return 100;
+  }
+
+  return 1000;
+}
+
+module.exports = { someFunc, otherFunc, newOtherFunc };

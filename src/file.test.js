@@ -1,4 +1,4 @@
-import { someFunc } from "file";
+const { someFunc } = require('./file')
 
 describe("test 1", () => {
   it("test 2", async () => {

@@ -1,4 +1,4 @@
-export function someFunc(a) {
+function someFunc(a) {
   if (a) {
     return 1;
   }
@@ -6,10 +6,12 @@ export function someFunc(a) {
   return 0
 }
 
-export function otherFunc(a) {
+function otherFunc(a) {
   if (a === 10) {
     return 100;
   }
 
   return 1000;
 }
+
+module.exports = { someFunc, otherFunc };

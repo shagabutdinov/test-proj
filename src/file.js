@@ -1,4 +1,4 @@
-export default function someFunc(a) {
+export function someFunc(a) {
   if (a) {
     return 1;
   }
@@ -6,7 +6,7 @@ export default function someFunc(a) {
   return 0
 }
 
-export default function otherFunc(a) {
+export function otherFunc(a) {
   if (a === 10) {
     return 100;
   }
